@@ -1,5 +1,5 @@
-import type { ExtensionAPI, Theme } from "@mariozechner/pi-coding-agent";
-import { Input, truncateToWidth, type Component, type Focusable, type TUI } from "@mariozechner/pi-tui";
+import type { ExtensionAPI, Theme } from "@earendil-works/pi-coding-agent";
+import { Input, truncateToWidth, type Component, type Focusable, type TUI } from "@earendil-works/pi-tui";
 import { getApiKey, getAuthPath, saveApiKey } from "./config.js";
 import { extractTool } from "./tools/extract.js";
 import { searchTool } from "./tools/search.js";

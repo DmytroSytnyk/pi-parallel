@@ -1,5 +1,5 @@
-import { getMarkdownTheme, keyHint, type Theme } from "@mariozechner/pi-coding-agent";
-import { Container, Markdown, Spacer, Text } from "@mariozechner/pi-tui";
+import { getMarkdownTheme, keyHint, type Theme } from "@earendil-works/pi-coding-agent";
+import { Container, Markdown, Spacer, Text } from "@earendil-works/pi-tui";
 import type { ExtractDetails } from "./tools/extract.js";
 import type { SearchDetails } from "./tools/search.js";
 
